@@ -1,0 +1,14 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #F2F1EF;
+    font-family: 'Commissioner';
+}
+
+body section {
+    margin-left: 85px;
+}
+
+body a {
+    font-style: none;
+}

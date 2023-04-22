@@ -1,0 +1,30 @@
+.plants-shop h1 {
+    width: 744px;
+    height: 173px;
+    margin-top: 70px;
+    font-size: 141px;
+    color: #557845;
+}
+
+.plants-shop h1 b {
+    color: #D0BB9C;
+}
+
+.plants-shop p {
+    width: 620px;
+    height: 67px;
+    font-size: 27px;
+}
+
+.plants-shop .shop-all-plants {
+    padding: 20px 20px 20px 20px;
+    position: absolute;
+    top: 484px;
+    background: #557845;
+}
+
+.plants-shop .plant-img {
+    position: absolute;
+    left: 300px;
+    top: 68px;
+}
