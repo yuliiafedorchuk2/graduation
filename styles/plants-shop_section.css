@@ -1,30 +1,40 @@
+.plants-shop {
+  display: flex;
+  flex-direction: row;
+}
+
+.plants-shop .left {
+  z-index: 2;
+}
+
+.plants-shop .left {
+  z-index: 1;
+}
+
 .plants-shop h1 {
-    width: 744px;
-    height: 173px;
-    margin-top: 70px;
-    font-size: 141px;
-    color: #557845;
+  margin: 94px 0 0 0;
+  font-size: 194px;
+  line-height: 237px;
+  color: #557845;
 }
 
 .plants-shop h1 b {
-    color: #D0BB9C;
+  color: #d0bb9c;
 }
 
 .plants-shop p {
-    width: 620px;
-    height: 67px;
-    font-size: 27px;
+  width: 620px;
+  height: 67px;
+  font-size: 27px;
+  margin: 0 0 194px 0;
 }
 
 .plants-shop .shop-all-plants {
-    padding: 20px 20px 20px 20px;
-    position: absolute;
-    top: 484px;
-    background: #557845;
+  padding: 20px 20px 20px 20px;
+  background: #557845;
 }
 
-.plants-shop .plant-img {
-    position: absolute;
-    left: 300px;
-    top: 68px;
+.plants-shop .plant-img img {
+  width: 800px;
+  margin: 100px 0 0 -300px;
 }

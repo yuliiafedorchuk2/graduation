@@ -1,54 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./styles/main.css">
-    <link rel="stylesheet" href="./styles/header.css">
-    <link rel="stylesheet" href="./styles/plants-shop_section.css">
-    <link rel="stylesheet" href="./styles/top-sales_section.css">
-    <link rel="stylesheet" href="./styles/advertising_section.css">
-    <link rel="stylesheet" href="./styles/frequently-asked-questions_section.css">
-    <link rel="stylesheet" href="./styles/basement_section.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Commissioner&display=swap"/>
-</head>
-<body>
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/plants-shop_section.css" />
+    <link rel="stylesheet" href="./styles/top-sales_section.css" />
+    <link rel="stylesheet" href="./styles/advertising_section.css" />
+    <link
+      rel="stylesheet"
+      href="./styles/frequently-asked-questions_section.css"
+    />
+    <link rel="stylesheet" href="./styles/basement_section.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Commissioner&display=swap"
+    />
+  </head>
+  <body>
     <header>
-      <div class="logo">
-        <img src="./assets/logo.jpg" alt="logo"/></div>
-      <nav>
-        <span class="general-links">
-          <a href="">Home</a>
-          <a href="">New Arrivals</a>
-          <a href="">Home/Decor</a>
-          <a href="">Garden plants</a> 
-          <a href="">Blooming/Bouquets</a>
-        </span>
-        <span class="search">
+      <div class="container">
+        <div class="logo">
+          <img src="./assets/logo.jpg" alt="logo" />
+        </div>
+        <nav>
+          <span class="general-links">
+            <a href="">Home</a>
+            <a href="">New Arrivals</a>
+            <a href="">Home/Decor</a>
+            <a href="">Garden plants</a>
+            <a href="">Blooming/Bouquets</a>
+          </span>
+          <!-- <span class="search">
           <a href="">Search</a>
           <img src="./assets/search-icon.jpg" alt="search-icon">
           <div class="search-underline">
           </div>
-        </span>
-        <span class="basket-account">
-          <img src="./assets/basket-account.jpg" alt="basket-account">
-        </span>
-      </nav>
+        </span> -->
+          <span class="search">
+            <input placeholder="Search" type="text" />
+            <img src="./assets/search-icon.jpg" alt="search-icon" />
+          </span>
+          <span class="basket-account">
+            <img src="./assets/basket-account.jpg" alt="basket-account" />
+          </span>
+        </nav>
+      </div>
     </header>
-    <section class="plants-shop"> 
-      <div class="plant-img">
-        <img src="./assets/plant.svg" alt="plant">
-      </div> 
-      <h1>Plants<b>Shop</b></h1>
-      <p>Create a cozy and relaxing space with free shipping <br> on all plants and planters.</p>
-      <div class="shop-all-plants">
-        <a href="">Shop All Plants</a>
-      </div>
-      <div class="sell">
-        <a href="">Sell</a>
-      </div>
-    </section>
-</body>
+    <div class="container">
+      <section class="plants-shop">
+        <div class="left">
+          <h1>Plants<b>Shop</b></h1>
+          <p>
+            Create a cozy and relaxing space with free shipping <br />
+            on all plants and planters.
+          </p>
+          <a class="shop-all-plants" href="#">Shop All Plants</a>
+          <a class="sell" href="#">Sell</a>
+        </div>
+        <div class="right">
+          <div class="plant-img">
+            <img src="./assets/plant.svg" alt="plant" />
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
 </html>

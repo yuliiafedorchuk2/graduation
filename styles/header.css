@@ -1,60 +1,84 @@
 header {
-    position: sticky;
-    background-color: #DAC9B0;
-    z-index: 999;
-    top: 0px;
-    left: 0px;
-    height: 50px;
-    justify-content: space-between;
-}
-  
-header a {
-    color: #4F4A3F;
-    padding: 8px 15px;
-    font-size: 16px;
-    line-height: 24px;
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 16.3px;
-    line-height: 27px;
+  position: sticky;
+  background-color: #dac9b0;
+  z-index: 999;
+  top: 0px;
+  left: 0px;
+  height: 50px;
+  justify-content: space-between;
 }
 
-header .logo {
-    margin-left: 85px;
+header .container {
+  flex-direction: row;
+  justify-content: space-between;
 }
-  
+
+header a {
+  color: #4f4a3f;
+  padding: 8px 15px;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16.3px;
+  line-height: 27px;
+}
+
 header .general-links {
-    margin-right: 75px;
+  margin-right: 75px;
 }
-  
+
 header .general-links a {
-    margin-right: 25px;
+  margin-right: 25px;
 }
-  
-header, header .general-links, header nav, .company-icons {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+
+header,
+header .general-links,
+header nav,
+.company-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
- 
-header .search a {
-    margin-right: 60px;
-    color: #185200;
+
+header .search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  margin: 0 40px 0 0;
+}
+
+header .search input {
+  background: transparent;
+  border: none;
+  outline: none;
+  max-width: 100px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  border-bottom: 1px solid #185200;
+  padding: 0 20px 0 0;
+}
+
+header .search input::placeholder {
+  color: #185200;
 }
 
 header .search img {
-    margin-right: 40px;
-    height: 17px;
+  height: 17px;
+  position: absolute;
+  right: 0;
 }
 
 header .search .search-underline {
-    width: 117px;
-    height: 1.5px;
-    background-color: #185200;
-    align-self: stretch;
-    margin-left: 15px;
+  width: 117px;
+  height: 1.5px;
+  background-color: #185200;
+  align-self: stretch;
+  margin-left: 15px;
 }
 
 header .basket-account {
-    margin-right: 85px;
+  margin-right: 85px;
 }
