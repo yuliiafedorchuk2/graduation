@@ -13,7 +13,7 @@
 
 .plants-shop h1 {
   margin: 94px 0 0 0;
-  font-size: 194px;
+  font-size: 160px;
   line-height: 237px;
   color: #557845;
 }
@@ -23,15 +23,24 @@
 }
 
 .plants-shop p {
-  width: 620px;
-  height: 67px;
-  font-size: 27px;
+  font-weight: 200;
+  font-size: 25px;
   margin: 0 0 194px 0;
 }
 
 .plants-shop .shop-all-plants {
-  padding: 20px 20px 20px 20px;
-  background: #557845;
+  font-size: 20px;
+  color: #F2F1EF;
+  padding: 13px 26px 13px 26px;
+  background-color: #557845;
+}
+
+.plants-shop .sell {
+  font-size: 20px;
+  color: #557845;
+  padding: 13px 30px 13px 30px;
+  border: 2px;
+  border-color: #557845;
 }
 
 .plants-shop .plant-img img {
