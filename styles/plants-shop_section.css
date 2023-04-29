@@ -30,7 +30,7 @@
 
 .plants-shop .shop-all-plants {
   font-size: 20px;
-  color: #F2F1EF;
+  color: #f2f1ef;
   padding: 13px 26px 13px 26px;
   background-color: #557845;
 }
@@ -38,9 +38,9 @@
 .plants-shop .sell {
   font-size: 20px;
   color: #557845;
-  padding: 13px 30px 13px 30px;
-  border: 2px;
-  border-color: #557845;
+  padding: 9px 30px;
+  border: 4.5px solid #557845;
+  border-radius: 1.5px;
 }
 
 .plants-shop .plant-img img {
