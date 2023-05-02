@@ -4,21 +4,17 @@
 }
 
 .plants-shop .left {
-  z-index: 2;
-}
-
-.plants-shop .left {
   z-index: 1;
 }
 
 .plants-shop h1 {
-  margin: 94px 0 0 0;
+  margin: 40px 0 0 0;
   font-size: 160px;
   line-height: 237px;
   color: #557845;
 }
 
-.plants-shop h1 b {
+.plants-shop h1 .shop {
   color: #d0bb9c;
 }
 
@@ -39,8 +35,9 @@
   font-size: 20px;
   color: #557845;
   padding: 9px 30px;
-  border: 4.5px solid #557845;
-  border-radius: 1.5px;
+  border: 3px solid #557845;
+  padding: 10px 26px;
+  margin-left: 30px;
 }
 
 .plants-shop .plant-img img {

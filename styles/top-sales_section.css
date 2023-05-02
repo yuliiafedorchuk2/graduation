@@ -4,62 +4,81 @@
   color: #557845;
 }
 
-.top-sales h1 b {
+.top-sales h1 .sales {
   color: #d0bb9c;
 }
 
-.carousel-item {
-  background-color: #ffffff;
+.top-sales .carousel-item {
+  margin-left: 20px;
 }
 
-.top-sales {
-  margin-top: 50px;
+.top-sales .col-md-4 {
+  margin-top: 120px;
+}
+
+.top-sales .article-card {
+  width: 300px;
+  height: 400px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.top-sales .basket-icon img {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.top-sales .sale b {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  color: #B7A07C;
+  margin-left: 230px;
+  margin-top: -40px;
+}
+
+.top-sales .spider-plant img {
+  height: 220px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.top-sales .zz-plant img {
+  height: 220px;
+  margin-left: 80px;
+  margin-top: 15px;
+}
+
+.top-sales .haworthia img {
+  height: 200px;
+  margin-left: 70px;
+  margin-top: 30px;
 }
 
 .top-sales .title {
-  text-align: center;
-  font-size: 28px;
-  margin-bottom: 30px;
-}
-
-.top-sales .spider-plant,
-.haworthia,
-.zz-plant img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.top-sales .spider-plant,
-.haworthia,
-.zz-plant img {
-  width: 70%;
-  height: auto;
-  margin-bottom: 10px;
-}
-
-.top-sales .spider-plant,
-.haworthia,
-.zz-plant img {
-  font-size: 17px;
-  margin-bottom: 5px;
-}
-
-.top-sales .price {
-  font-size: 13px;
-  margin-bottom: 10px;
+  font-size: 23px;
+  line-height: 26px;
+  color: #557845;
+  margin-left: 15px;
+  position: absolute;
+  margin-top: 40px;
 }
 
 .top-sales .view-more {
-  display: block;
-  margin: 0 auto;
-  padding: 5px 10px;
-  font-size: 13px;
-  color: #43a047;
-  color: #fff;
+  font-size: 18px;
+  color: #9E9484;
+  text-decoration: underline;
+  margin-left: 15px;
+  margin-top: 72px;
+  position: absolute;
 }
 
-.top-sales .view-more:hover {
-  background-color: #5c745d;
+.top-sales .price {
+  font-size: 22px;
+  color: #557845;
+  margin-left: 210px;
+  margin-top: 70px;
+  position: absolute;
 }

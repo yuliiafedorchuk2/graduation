@@ -1,0 +1,50 @@
+.basement .basement-image {
+    margin-top: 190px;
+    width: 1440px;
+    height: auto;
+}
+
+.basement .phone-number {
+    position: absolute;
+    left: 830px;
+    top: 3290px;
+    font-size: 19px;
+    color: #FFFFFF;
+}
+
+.basement .instagram {
+    position: absolute;
+    left: 830px;
+    top: 3420px;
+    font-size: 19px;
+    color: #FFFFFF;
+}
+
+.basement .facebook {
+    position: absolute;
+    left: 830px;
+    top: 3550px;
+    font-size: 19px;
+    color: #FFFFFF;
+}
+
+.basement .about-us {
+    position: absolute;
+    left: 1250px;
+    top: 3290px;
+    font-size: 19px;
+    color: #FFFFFF;
+}
+
+.basement .privaty-policy {
+    position: absolute;
+    left: 1220px;
+    top: 3580px;
+    font-size: 19px;
+    color: #FFFFFF;
+}
+
+.basement br {
+    text-decoration: none;
+    font-weight: lighter;
+}

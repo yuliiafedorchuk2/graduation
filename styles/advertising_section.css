@@ -1,0 +1,28 @@
+.advertising img {
+    margin-top: 190px;
+    width: 1440px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.advertising h1 {
+    position: absolute;
+    left: 390px;
+    top: 1870px;
+    font-size: 130px;
+    color: rgba(255, 255, 255);
+    animation: breathing 3s ease-in-out infinite;
+}
+
+@keyframes breathing {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+}

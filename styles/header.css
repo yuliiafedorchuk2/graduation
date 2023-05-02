@@ -13,6 +13,10 @@ header .container {
   justify-content: space-between;
 }
 
+header .logo{
+  margin-top: 5px;
+} 
+
 header a {
   color: #4f4a3f;
   padding: 8px 15px;
@@ -32,10 +36,7 @@ header .general-links a {
   margin-right: 25px;
 }
 
-header,
-header .general-links,
-header nav,
-.company-icons {
+header, header .general-links, header nav, .company-icons {
   display: flex;
   flex-direction: row;
   align-items: center;

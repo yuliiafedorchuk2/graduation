@@ -10,15 +10,10 @@
     <link rel="stylesheet" href="./styles/header.css" />
     <link rel="stylesheet" href="./styles/plants-shop_section.css" />
     <link rel="stylesheet" href="./styles/top-sales_section.css">
-    <link
-      rel="stylesheet"
-      href="./styles/frequently-asked-questions_section.css"
-    />
+    <link rel="stylesheet" href="./styles/advertising_section.css">
+    <link rel="stylesheet" href="./styles/frequently-asked-questions_section.css">
     <link rel="stylesheet" href="./styles/basement_section.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Commissioner&display=swap"
-    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Commissioner&display=swap"/>
   </head>
   <body>
     <header>
@@ -28,11 +23,11 @@
         </div>
         <nav>
           <span class="general-links">
-            <a href="">Home</a>
-            <a href="">New Arrivals</a>
-            <a href="">Home/Decor</a>
-            <a href="">Garden plants</a>
-            <a href="">Blooming/Bouquets</a>
+            <a href="#">Home</a>
+            <a href="#">New Arrivals</a>
+            <a href="#">Home/Decor</a>
+            <a href="#">Garden plants</a>
+            <a href="#">Blooming/Bouquets</a>
           </span>
           <span class="search">
             <input placeholder="Search" type="text" />
@@ -47,7 +42,7 @@
     <div class="container">
       <section class="plants-shop">
         <div class="left">
-          <h1>Plants<b>Shop</b></h1>
+          <h1><b>Plants</b><b class="shop">Shop</b></h1>
           <p>Create a cozy and relaxing space with free shipping <br/> on all plants and planters.</p>
           <a class="shop-all-plants" href="#">Shop All Plants</a>
           <a class="sell" href="#">Sell</a>
@@ -59,123 +54,206 @@
         </div>
       </section>
       <section class="top-sales">
-        <h1>Top<b>Sales</b></h1>
-        <div id="carouselExample" class="carousel-slide">
+        <h1><b>Top</b><b class="sales">Sales</b></h1>
+        <div id="carouselExample" class="carousel slide">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <div class="articles row">
-                <div class="col-md-4">
-                  <div class="article-card">
-                    <img class="basket-icon" src="./assets/basket.jpg" alt="basket-icon">
-                    <span class="sale">SALE</span>
-                    <img src="./assets/spider-plant.jpg" alt="spider-plant">
-                    <span class="title">Spider Plant</span>
-                    <a class="view-more" href="#"> view more</a>
-                    <span class="price">$24.99</span>
+              <div class="carousel-item active">
+                <div class="articles row">
+                  <div class="col-md-4">
+                    <div class="article-card">
+                      <div class="basket-icon">
+                        <img src="./assets/basket.jpg" alt="basket-icon">
+                      </div>
+                      <span class="sale"><b>SALE</b></span>
+                      <div class="spider-plant">
+                        <img src="./assets/spider-plant.jpg" alt="spider-plant">
+                      </div>
+                      <span class="title">Spider Plant</span>
+                      <a class="view-more" href="#"> view more</a>
+                      <span class="price">$24.99</span>
+                    </div>
                   </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="article-card">
-                    <img class="basket-icon" src="./assets/basket.jpg" alt="basket-icon">
-                    <span class="sale">SALE</span>
-                    <img src="./assets/haworthia.jpg" alt="haworthia">
-                    <span class="title">Haworthia</span>
-                    <a class="view-more" href="#"> view more</a>
-                    <span class="price">$14.99</span>
+                  <div class="col-md-4">
+                    <div class="article-card">
+                      <div class="basket-icon">
+                        <img src="./assets/basket.jpg" alt="basket-icon">
+                      </div>
+                      <span class="sale"><b>SALE</b></span>
+                      <div class="haworthia">
+                        <img src="./assets/haworthia.jpg" alt="haworthia">
+                      </div>
+                      <span class="title">Haworthia</span>
+                      <a class="view-more" href="#"> view more</a>
+                      <span class="price">$14.99</span>
+                    </div>
                   </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="article-card">
-                    <img class="basket-icon" src="./assets/basket.jpg" alt="basket-icon">
-                    <span class="sale">SALE</span>
-                    <img src="./assets/zz-plant.jpg" alt="zz-plant">
-                    <span class="title">Zz Plant</span>
-                    <a class="view-more" href="#"> view more</a>
-                    <span class="price">$69.99</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="articles row">
-                <div class="col-md-4">
-                  <div class="article-card">
-                    <img class="basket-icon" src="./assets/basket.jpg" alt="basket-icon">
-                    <span class="sale">SALE</span>
-                    <img src="./assets/spider-plant.jpg" alt="spider-plant">
-                    <span class="title">Spider Plant</span>
-                    <a class="view-more" href="#"> view more</a>
-                    <span class="price">$24.99</span>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="article-card">
-                    <img class="basket-icon" src="./assets/basket.jpg" alt="basket-icon">
-                    <span class="sale">SALE</span>
-                    <img src="./assets/haworthia.jpg" alt="haworthia">
-                    <span class="title">Haworthia</span>
-                    <a class="view-more" href="#"> view more</a>
-                    <span class="price">$14.99</span>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="article-card">
-                    <img class="basket-icon" src="./assets/basket.jpg" alt="basket-icon">
-                    <span class="sale">SALE</span>
-                    <img src="./assets/zz-plant.jpg" alt="zz-plant">
-                    <span class="title">Zz Plant</span>
-                    <a class="view-more" href="#"> view more</a>
-                    <span class="price">$69.99</span>
+                  <div class="col-md-4">
+                    <div class="article-card">
+                      <div class="basket-icon">
+                        <img src="./assets/basket.jpg" alt="basket-icon">
+                      </div>
+                      <span class="sale"><b>SALE</b></span>
+                      <div class="zz-plant">
+                        <img src="./assets/zz-plant.jpg" alt="zz-plant">
+                      </div>
+                      <span class="title">Zz Plant</span>
+                      <a class="view-more" href="#"> view more</a>
+                      <span class="price">$69.99</span>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
             <div class="carousel-item">
-              <div class="articles row">
-                <div class="col-md-4">
-                  <div class="article-card">
-                    <img class="basket-icon" src="./assets/basket.jpg" alt="basket-icon">
-                    <span class="sale">SALE</span>
-                    <img src="./assets/spider-plant.jpg" alt="spider-plant">
-                    <span class="title">Spider Plant</span>
-                    <a class="view-more" href="#"> view more</a>
-                    <span class="price">$24.99</span>
+              <div class="carousel-item active">
+                <div class="articles row">
+                  <div class="col-md-4">
+                    <div class="article-card">
+                      <div class="basket-icon">
+                        <img src="./assets/basket.jpg" alt="basket-icon">
+                      </div>
+                      <span class="sale"><b>SALE</b></span>
+                      <div class="spider-plant">
+                        <img src="./assets/spider-plant.jpg" alt="spider-plant">
+                      </div>
+                      <span class="title">Spider Plant</span>
+                      <a class="view-more" href="#"> view more</a>
+                      <span class="price">$24.99</span>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="article-card">
+                      <div class="basket-icon">
+                        <img src="./assets/basket.jpg" alt="basket-icon">
+                      </div>
+                      <span class="sale"><b>SALE</b></span>
+                      <div class="haworthia">
+                        <img src="./assets/haworthia.jpg" alt="haworthia">
+                      </div>
+                      <span class="title">Haworthia</span>
+                      <a class="view-more" href="#"> view more</a>
+                      <span class="price">$14.99</span>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="article-card">
+                      <div class="basket-icon">
+                        <img src="./assets/basket.jpg" alt="basket-icon">
+                      </div>
+                      <span class="sale"><b>SALE</b></span>
+                      <div class="zz-plant">
+                        <img src="./assets/zz-plant.jpg" alt="zz-plant">
+                      </div>
+                      <span class="title">Zz Plant</span>
+                      <a class="view-more" href="#"> view more</a>
+                      <span class="price">$69.99</span>
+                    </div>
                   </div>
                 </div>
-                <div class="col-md-4">
-                  <div class="article-card">
-                    <img class="basket-icon" src="./assets/basket.jpg" alt="basket-icon">
-                    <span class="sale">SALE</span>
-                    <img src="./assets/haworthia.jpg" alt="haworthia">
-                    <span class="title">Haworthia</span>
-                    <a class="view-more" href="#"> view more</a>
-                    <span class="price">$14.99</span>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-item active">
+                <div class="articles row">
+                  <div class="col-md-4">
+                    <div class="article-card">
+                      <div class="basket-icon">
+                        <img src="./assets/basket.jpg" alt="basket-icon">
+                      </div>
+                      <span class="sale"><b>SALE</b></span>
+                      <div class="spider-plant">
+                        <img src="./assets/spider-plant.jpg" alt="spider-plant">
+                      </div>
+                      <span class="title">Spider Plant</span>
+                      <a class="view-more" href="#"> view more</a>
+                      <span class="price">$24.99</span>
+                    </div>
                   </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="article-card">
-                    <img class="basket-icon" src="./assets/basket.jpg" alt="basket-icon">
-                    <span class="sale">SALE</span>
-                    <img src="./assets/zz-plant.jpg" alt="zz-plant">
-                    <span class="title">Zz Plant</span>
-                    <a class="view-more" href="#"> view more</a>
-                    <span class="price">$69.99</span>
+                  <div class="col-md-4">
+                    <div class="article-card">
+                      <div class="basket-icon">
+                        <img src="./assets/basket.jpg" alt="basket-icon">
+                      </div>
+                      <span class="sale"><b>SALE</b></span>
+                      <div class="haworthia">
+                        <img src="./assets/haworthia.jpg" alt="haworthia">
+                      </div>
+                      <span class="title">Haworthia</span>
+                      <a class="view-more" href="#"> view more</a>
+                      <span class="price">$14.99</span>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="article-card">
+                      <div class="basket-icon">
+                        <img src="./assets/basket.jpg" alt="basket-icon">
+                      </div>
+                      <span class="sale"><b>SALE</b></span>
+                      <div class="zz-plant">
+                        <img src="./assets/zz-plant.jpg" alt="zz-plant">
+                      </div>
+                      <span class="title">Zz Plant</span>
+                      <a class="view-more" href="#"> view more</a>
+                      <span class="price">$69.99</span>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
         </div>
       </section>
     </div>
+    <section class="advertising">
+      <div class="advertising">
+        <img src="./assets/advertising-image.jpg" alt="advertising-image">
+        <h1 class="plantsshop" data-splitting><b>PlantsShop</b></h1>
+      </div>
+    </section>
+    <div class="container">
+      <section class="frequently-asked-questions">
+        <div class="left">
+          <h1><b>Frequently asked</b><b class="questions"> Questions</b></h1>
+          <div class="questions">
+            <p>How long do flowers live?</p>
+            <div class="first-line"></div>
+            <p>How often to water flowers?</p>
+            <div class="second-line"></div>
+            <p>How to order a flower?</p>
+            <div class="third-line"></div>
+            <p>How to sell a flower?</p>
+            <div class="fourth-line"></div>
+            <p>How to contact with you?</p>
+            <div class="fifth-line"></div>
+            <p>Are flowers safe for children and animals?</p>
+            <div class="sixth-line"></div>
+          </div>
+        </div>
+        <div class="right">
+          <div class="question-image">
+            <img src="./assets/questions-image.jpg" alt="question-image">
+          </div>
+          <a href="#">Ask more questions</a>
+        </div>
+    </section>
+    </div>
+    <section class="basement">
+      <img class="basement-image" src="./assets/basement-image.jpg" alt="basement-image">
+      <p class="phone-number">Phone number<br>+380 ## ### ## ##</p>
+      <a class="instagram" href="https://www.instagram.com/yuliia.dsgn/">Instagram<br>https://www.instagram.com/</a>
+      <a class="facebook" href="https://www.facebook.com/profile.php?id=100083207252857">Instagram<br>https://www.facebook.com/</a>
+      <a class="about-us" href="#">About us<br>Our story</a>
+      <a class="privaty-policy" href="#">Privaty Policy</a>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
