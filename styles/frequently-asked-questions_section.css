@@ -1,92 +1,116 @@
-.frequently-asked-questions .left {
-    z-index: 1;
+.frequently-asked-questions h1 {
+  margin-top: 90px;
+  font-size: 70px;
+  line-height: 237px;
+  color: #557845;
 }
 
-.frequently-asked-questions h1 {
-    margin-top: 90px;
-    font-size: 70px;
-    line-height: 237px;
-    color: #557845;
+.frequently-asked-questions .accordion-button,
+.frequently-asked-questions .accordion-item {
+  background-color: transparent;
 }
-  
+
+.frequently-asked-questions .accordion-item {
+  border: none;
+}
+
+.frequently-asked-questions .accordion-item:not(:last-child) {
+  border-bottom: 1px solid #000;
+}
+
+.frequently-asked-questions .accordion-button {
+  color: #000;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 49px;
+}
+
+.frequently-asked-questions .accordion-button:after {
+  background: none;
+  content: "+";
+  transform: translate(0, -80%);
+  top: 0;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.frequently-asked-questions .accordion-button[aria-expanded="true"]:after {
+  content: "-";
+}
+
 .frequently-asked-questions h1 .questions {
-    color: #d0bb9c;
+  color: #d0bb9c;
 }
 
 .frequently-asked-questions p {
-    font-weight: 500;
-    font-size: 25px;
-    line-height: 65px;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 65px;
 }
 
 .frequently-asked-questions .first-line {
-    box-sizing: border-box;
-    width: 650px;
-    height: 129px;
-    top: 2480px;
-    position: absolute;
-    border-bottom: 1.5px solid #000000;
+  box-sizing: border-box;
+  width: 650px;
+  height: 129px;
+  top: 2480px;
+  position: absolute;
+  border-bottom: 1.5px solid #000000;
 }
 
 .frequently-asked-questions .second-line {
-    box-sizing: border-box;
-    width: 650px;
-    height: 129px;
-    top: 2560px;
-    position: absolute;
-    border-bottom: 1.5px solid #000000;
+  box-sizing: border-box;
+  width: 650px;
+  height: 129px;
+  top: 2560px;
+  position: absolute;
+  border-bottom: 1.5px solid #000000;
 }
 
 .frequently-asked-questions .third-line {
-    box-sizing: border-box;
-    width: 650px;
-    height: 129px;
-    top: 2640px;
-    position: absolute;
-    border-bottom: 1.5px solid #000000;
+  box-sizing: border-box;
+  width: 650px;
+  height: 129px;
+  top: 2640px;
+  position: absolute;
+  border-bottom: 1.5px solid #000000;
 }
 
 .frequently-asked-questions .fourth-line {
-    box-sizing: border-box;
-    width: 650px;
-    height: 129px;
-    top: 2720px;
-    position: absolute;
-    border-bottom: 1.5px solid #000000;
+  box-sizing: border-box;
+  width: 650px;
+  height: 129px;
+  top: 2720px;
+  position: absolute;
+  border-bottom: 1.5px solid #000000;
 }
 
 .frequently-asked-questions .fifth-line {
-    box-sizing: border-box;
-    width: 650px;
-    height: 129px;
-    top: 2800px;
-    position: absolute;
-    border-bottom: 1.5px solid #000000;
+  box-sizing: border-box;
+  width: 650px;
+  height: 129px;
+  top: 2800px;
+  position: absolute;
+  border-bottom: 1.5px solid #000000;
 }
 
 .frequently-asked-questions .sixth-line {
-    box-sizing: border-box;
-    width: 650px;
-    height: 129px;
-    top: 2880px;
-    position: absolute;
-    border-bottom: 1.5px solid #000000;
+  box-sizing: border-box;
+  width: 650px;
+  height: 129px;
+  top: 2880px;
+  position: absolute;
+  border-bottom: 1.5px solid #000000;
 }
 
 .frequently-asked-questions .question-image img {
-    position: absolute;
-    width: 420px;
-    height: 390px;
-    left: 900px;
-    top: 2530px;
+  width: 420px;
+  height: 390px;
 }
 
-.frequently-asked-questions .right a {
-    position: absolute;
-    left: 1000px;
-    top: 2960px;
-    background: #557845;
-    font-size: 20px;
-  color: #F2F1EF;
+.frequently-asked-questions .ask-more-link {
+  background: #557845;
+  font-size: 20px;
+  color: #f2f1ef;
   padding: 10px 26px;
+  margin: 43px auto 0 auto;
 }
