@@ -42,7 +42,7 @@
           </span>
           <span class="search">
             <input placeholder="Search" id="search-input" type="text"/>
-            <img src="./assets/search-icon.jpg" alt="search-icon" />
+            <img src="./assets/search-icon.jpg" alt="search-icon" onclick="searchOnClick()"/>
           </span>
           <span class="basket-account">
             <img src="./assets/basket-account.jpg" alt="basket-account" />
@@ -51,6 +51,7 @@
       </div>
     </header>
     <div class="container">
+      <div id="search-results"></div>
       <section class="plants-shop">
         <div class="left">
           <h1><b>Plants</b><b class="shop">Shop</b></h1>
