@@ -114,3 +114,7 @@
   padding: 10px 26px;
   margin: 43px auto 0 auto;
 }
+
+.frequently-asked-questions code {
+  color: #557845;
+}
