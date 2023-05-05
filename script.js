@@ -19,7 +19,7 @@ function displayResults(results) {
     const container = document.getElementById('search-results');
   
     container.innerHTML = ''; 
-  
+
     if (results.length === 0) {
       container.innerText = 'No results found.';
     } else {
@@ -35,14 +35,11 @@ function displayResults(results) {
 }
   
 
-const form = document.querySelector('form');
-form.addEventListener('submit', function(event) {
-    event.preventDefault();
-  
+const searchOnClick = function() {
     const input = document.getElementById('search-input');
     const query = input.value;
   
     const results = searchOnWebsite(query);
   
     displayResults(results);
-});  
+};  
