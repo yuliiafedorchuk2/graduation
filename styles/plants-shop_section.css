@@ -31,6 +31,14 @@
   background-color: #557845;
 }
 
+.plants-shop .shop-all-plants:hover {
+  border: 3px solid #557845;
+  background-color: #f2f1ef;
+  color: #557845;
+  font-size: 20px;
+  padding: 11px 23px;
+}
+
 .plants-shop .sell {
   font-size: 20px;
   color: #557845;
@@ -38,6 +46,11 @@
   border: 3px solid #557845;
   padding: 10px 26px;
   margin-left: 30px;
+}
+
+.plants-shop .sell:hover {
+  background-color: #557845;
+  color:#f2f1ef ;
 }
 
 .plants-shop .plant-img img {

@@ -36,6 +36,10 @@ header .general-links a {
   margin-right: 25px;
 }
 
+header a:hover {
+  color: black;
+}
+
 header, header .general-links, header nav, .company-icons {
   display: flex;
   flex-direction: row;

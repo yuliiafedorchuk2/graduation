@@ -115,6 +115,14 @@
   margin: 43px auto 0 auto;
 }
 
+.frequently-asked-questions .ask-more-link:hover {
+  border: 3px solid #557845;
+  background-color: #f2f1ef;
+  color: #557845;
+  font-size: 20px;
+  padding: 8px 23px;
+}
+
 .frequently-asked-questions code {
   color: #557845;
 }
